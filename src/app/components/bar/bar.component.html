@@ -1,0 +1,10 @@
+<div class="container">
+    <div class="search-bar">
+        <img class="search-bar__logo" src="/assets/logo.png" alt="logo mercado libre" />
+        <input class="search-bar__input" id="search" type="text" placeholder="Nunca dejes de buscar" name="search"
+            (keyup)=keyEvent($event) [(ngModel)]="text" />
+        <button class="search-bar__button" (click)="search()">
+            <img src="/assets/search.png" />
+        </button>
+    </div>
+</div>
