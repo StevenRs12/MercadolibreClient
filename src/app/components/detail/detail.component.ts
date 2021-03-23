@@ -45,8 +45,10 @@ export class DetailComponent {
     this.router.navigate(['/' + query]);
   }
 
-  private getDetail(id: string): void {
+  public getDetail(id: string): void {
     this.detailService.detail(id).subscribe((detail) => {
+      console.log(detail);
+
       this.loading = false;
       this.description = detail.description;
       this.picture = detail.item.picture;

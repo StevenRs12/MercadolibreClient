@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  urlAPI: 'http://localhost:3000/stevenrojas/meli/api/'
+  urlAPI: 'https://still-refuge-62696.herokuapp.com/stevenrojas/meli/api/'
 };
 
 /*
